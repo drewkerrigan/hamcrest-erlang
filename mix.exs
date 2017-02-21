@@ -7,7 +7,7 @@ defmodule Hamcrest.Mixfile do
     [app: :hamcrest,
      version: @version,
      description: "Erlang port of Hamcrest",
-     package: package]
+     package: package()]
   end
 
   defp package do
